@@ -49,11 +49,8 @@ L'application s'ouvre automatiquement sur http://localhost:8501
 | Upload image | JPG, PNG, BMP, WEBP |
 | Prétraitement | Grayscale → resize 64×64 → CLAHE (identique au notebook) |
 | Inférence | 4 modèles en parallèle |
-| Consensus | Vote majoritaire affiché en haut |
 | Onglet comparaison | Bar chart groupé + radar + heatmap (Plotly) |
-| Onglet par modèle | Top-K barres horizontales + méta informations |
-| Seuil de confiance | Configurable dans la sidebar (défaut 30%) |
-| Vérification .pth | La sidebar indique ✅/❌ pour chaque modèle |
+
 
 ## Modèles supportés
 
